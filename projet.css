@@ -1,0 +1,166 @@
+footer {
+  display: flex;
+}
+
+/*---------------------BLOCK 1-----------------*/
+
+#block1 {
+  text-align: center;
+}
+
+#block1 h1 {
+  color: black;
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+/*
+#block1 button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 10px;;
+  padding: 0.5em;
+  margin: 1em;
+  transition: 0.8s;
+}
+
+#block1 button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+*/
+
+/*---------------------BLOCK 2-----------------*/
+
+#block2 {
+  display: flex;
+  width: 50%;
+  margin: 1.6em auto;
+}
+
+#socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 10em;
+}
+
+#subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 10em;
+}
+
+#subscribe input {
+  padding: 0.5em;
+  border-color: black;
+  border-radius: 10px;
+  transition: 0.8s;
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+}
+
+#subscribe input:hover {
+  padding: 15px;
+}
+
+#subscribe button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 10px;;
+  padding: 0.6em;
+  transition: 0.8s;
+  font-family: 'Marck Script', cursive;
+  font-size: 18px;
+
+}
+
+#subscribe button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.fa {
+  color: black;
+  transition: 0.8s;
+  transition-duration: 3.3s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-snapchat-ghost:hover {
+  color: #fffc00;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-youtube:hover {
+  color: #cd201f;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-pinterest-p:hover {
+  color: #bd081c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+/*---------------------BLOCK 3-----------------*/
+
+#block3 {
+  margin: 3.5em;
+}
+
+#block3 ul {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#block3 a {
+  color: black;
+  font-size: 22px;
+  font-family: 'Marck Script', cursive;
+}
+
+#block3 a:hover {
+  text-decoration: none;
+  font-size: 26px;
+}
